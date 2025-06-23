@@ -28,6 +28,7 @@ public class PostController {
         // TODO: deserialize request & serialize response
         response.setContentType(APPLICATION_JSON);
         final var data = service.getById(id);
+        //final Gson gson = new Gson();
         response.getWriter().print(gson.toJson(data));
     }
 
