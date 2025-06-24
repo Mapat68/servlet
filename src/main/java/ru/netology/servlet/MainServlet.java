@@ -1,5 +1,6 @@
 package ru.netology.servlet;
 
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import ru.netology.controller.PostController;
 import ru.netology.repository.PostRepository;
 import ru.netology.service.PostService;
@@ -15,11 +16,15 @@ public class MainServlet extends HttpServlet {
     private static final String delete = "DELETE";
     private static final String api = "/api/posts";
 
+
     @Override
     public void init() {
-        final PostRepository repository = new PostRepository();
-        final PostService service = new PostService(repository);
-        controller = new PostController(service);
+        final var context = new AnnotationConfigApplicationContext("ru.netology");
+
+        final var repository = context.getBean(PostRepository.class);
+        final var service = context.getBean(PostService.class);
+        controller = (PostController) context.getBean("postController");
+        final var isSame = service == context.getBean("postService");
     }
 
     @Override
@@ -36,7 +41,7 @@ public class MainServlet extends HttpServlet {
                 controller.all(resp);
                 return;
             }
-            if (method.equals(get) && path.matches(api+"\\d+")) {
+            if (method.equals(get) && path.matches(api + "\\d+")) {
                 // easy way
                 final var id = Long.parseLong(path.substring(path.lastIndexOf("/")));
                 controller.getById(id, resp);
@@ -46,7 +51,7 @@ public class MainServlet extends HttpServlet {
                 controller.save(req.getReader(), resp);
                 return;
             }
-            if (method.equals(delete) && path.matches(api+"\\d+")) {
+            if (method.equals(delete) && path.matches(api + "\\d+")) {
                 // easy way
                 final var id = Long.parseLong(path.substring(path.lastIndexOf("/")));
                 controller.removeById(id, resp);

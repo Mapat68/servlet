@@ -2,6 +2,12 @@
 <Context docBase="C:/Users/ЗС/IdeaProjects/CRUD/src/main/webapp">
   <Resources cacheMaxSize="10240">
     <PreResources base="C:/Users/ЗС/IdeaProjects/CRUD/target/classes" className="org.apache.catalina.webresources.DirResourceSet" webAppMount="/WEB-INF/classes"/>
+    <PostResources base="C:/Users/ЗС/.m2/repository/org/springframework/spring-context/5.2.9.RELEASE/spring-context-5.2.9.RELEASE.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/spring-context-5.2.9.RELEASE.jar"/>
+    <PostResources base="C:/Users/ЗС/.m2/repository/org/springframework/spring-aop/5.2.9.RELEASE/spring-aop-5.2.9.RELEASE.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/spring-aop-5.2.9.RELEASE.jar"/>
+    <PostResources base="C:/Users/ЗС/.m2/repository/org/springframework/spring-beans/5.2.9.RELEASE/spring-beans-5.2.9.RELEASE.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/spring-beans-5.2.9.RELEASE.jar"/>
+    <PostResources base="C:/Users/ЗС/.m2/repository/org/springframework/spring-core/5.2.9.RELEASE/spring-core-5.2.9.RELEASE.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/spring-core-5.2.9.RELEASE.jar"/>
+    <PostResources base="C:/Users/ЗС/.m2/repository/org/springframework/spring-jcl/5.2.9.RELEASE/spring-jcl-5.2.9.RELEASE.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/spring-jcl-5.2.9.RELEASE.jar"/>
+    <PostResources base="C:/Users/ЗС/.m2/repository/org/springframework/spring-expression/5.2.9.RELEASE/spring-expression-5.2.9.RELEASE.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/spring-expression-5.2.9.RELEASE.jar"/>
     <PostResources base="C:/Users/ЗС/.m2/repository/com/google/code/gson/gson/2.8.4/gson-2.8.4.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/gson-2.8.4.jar"/>
   </Resources>
 </Context>
