@@ -4,19 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56a7b9d4-c6cc-4844-804d-f7f7d4caced9" name="Changes" comment="">
+    <list default="true" id="a456a627-4d60-41ce-a122-ee7109b63b08" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/repository/PostRepositoryStubImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gigaide/gigaide.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gigaide/gigaide.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/Catalina/localhost/ROOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/Catalina/localhost/ROOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/catalina.2025-06-23.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/catalina.2025-06-23.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/localhost_access_log.2025-06-23.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logs/localhost_access_log.2025-06-23.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/controller/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/controller/PostController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/repository/PostRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/repository/PostRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/service/PostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/service/PostService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/servlet/MainServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/servlet/MainServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,23 +43,24 @@
     <option name="version" value="2" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
+  "customColor": "",
+  "associatedIndex": 7
 }]]></component>
-  <component name="ProjectId" id="2ys0NnwV6UgyOiRYfxKagPuuJ8C" />
+  <component name="ProjectId" id="2yxd5T8JoC3E3q4RjkWBpLy6AqU" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Smart Tomcat.Tomcat: CRUD.executor": "Run",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ЗС/IdeaProjects/CRUD",
-    "settings.editor.selected.configurable": "com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Smart Tomcat.Tomcat: CRUD.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ЗС/IdeaProjects/CRUD&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Tomcat: CRUD" type="com.poratu.idea.plugins.tomcat">
       <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
@@ -59,9 +71,6 @@
       <option name="catalinaBase" value="C:\Users\ЗС\IdeaProjects\CRUD" />
       <option name="contextPath" value="/" />
       <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
-      <option name="envOptions">
-        <map />
-      </option>
       <option name="extraClassPath" value="" />
       <option name="tomcatInfo">
         <TomcatInfo>
@@ -80,11 +89,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="56a7b9d4-c6cc-4844-804d-f7f7d4caced9" name="Changes" comment="" />
-      <created>1750607939863</created>
+      <changelist id="a456a627-4d60-41ce-a122-ee7109b63b08" name="Changes" comment="" />
+      <created>1750701563625</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1750607939863</updated>
+      <updated>1750701563625</updated>
     </task>
     <servers />
   </component>
